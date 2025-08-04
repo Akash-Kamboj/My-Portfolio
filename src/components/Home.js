@@ -55,12 +55,12 @@ function Home() {
 
         <div className="cube-container animated-flicker">
           <div className="box-card">
-            <div className="face front"><img src="/skills-icons/Java.png" alt="Java" style={{ height: '60px', margin: 'auto' }} /></div>
-            <div className="face back"><img src="/skills-icons/Tailwind CSS.png" alt="Tailwind Css" style={{ height: '60px', margin: 'auto' }} /></div>
-            <div className="face right"><img src="/skills-icons/JavaScript.png" alt="JavaScript" style={{ height: '60px', margin: 'auto' }} /></div>
-            <div className="face left"><img src="/skills-icons/React.png" alt="React" style={{ height: '60px', margin: 'auto' }} /></div>
-            <div className="face top"><img src="/skills-icons/HTML5.png" alt="HTML" style={{ height: '60px', margin: 'auto' }} /></div>
-            <div className="face bottom"><img src="/skills-icons/CSS3.png" alt="CSS3" style={{ height: '60px', margin: 'auto' }} /></div>
+            <div className="face front"><img src={process.env.PUBLIC_URL +'/skills-icons/Java.png'} alt="Java" style={{ height: '60px', margin: 'auto' }} /></div>
+            <div className="face back"><img src= {process.env.PUBLIC_URL +'/skills-icons/Tailwind CSS.png'} alt="Tailwind Css" style={{ height: '60px', margin: 'auto' }} /></div>
+            <div className="face right"><img src= {process.env.PUBLIC_URL +'/skills-icons/JavaScript.png'} alt="JavaScript" style={{ height: '60px', margin: 'auto' }} /></div>
+            <div className="face left"><img src= {process.env.PUBLIC_URL +'/skills-icons/React.png'} alt="React" style={{ height: '60px', margin: 'auto' }} /></div>
+            <div className="face top"><img src= {process.env.PUBLIC_URL +'/skills-icons/HTML5.png'} alt="HTML" style={{ height: '60px', margin: 'auto' }} /></div>
+            <div className="face bottom"><img src= {process.env.PUBLIC_URL +'/skills-icons/CSS3.png'} alt="CSS3" style={{ height: '60px', margin: 'auto' }} /></div>
           </div>
         </div>
 
